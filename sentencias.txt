@@ -1,0 +1,5 @@
+SELECT * FROM vendedor;
+SELECT * FROM v;
+SELECT * FROM tarjeta;
+SELECT * FROM localidad;
+

@@ -1,0 +1,25 @@
+4) Escriba un programa que lea un conjunto de sentencias SQL de un archivo y ejecute cada                 
+una en un hilo separado, debe escribir los resultados en un unico archivo. En el archivo de                 
+resultados debe escribirse una linea con el titulo Consulta XX (donde XX es el numero de                
+linea), luego del encabezado una linea informando la sentencia y posteriormente el conjunto de              
+resultados obtenido separados por caracteres tab. En caso de haber errores debe escribirlos             
+todos en un archivo errores.txt
+
+
+--------------------------------------
+HACER:
+
+lanza un hilo por cada consulta obtenida
+El hilo tiene que escribir los resultados en un archivo
+EJEMPLO DE LINEA QUE TIENE QUE COPIAR:
+Consulta 01(numero de linea) 
+Sentencia que se ejecuto
+Resultado que lanzo separado por tabulaciones.
+
+Si se produce un error escribirlo en archivo errores.txt
+
+_______________________________________
+Leer archivo
+escribir en un nuevo archivo(resultados.txt)
+escribir error en un archivo(errores.txt)
+
